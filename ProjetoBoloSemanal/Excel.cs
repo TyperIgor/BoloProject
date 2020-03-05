@@ -8,5 +8,15 @@ namespace ProjetoBoloSemanal
 {
     class Excel
     {
+        void CreateExcel()
+        {
+
+        }
+
+        void OperateExcel()
+        {
+
+        }
+
     }
 }

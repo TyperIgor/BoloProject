@@ -7,72 +7,96 @@ using System.Threading.Tasks;
 
 namespace ProjetoBoloSemanal
 {
-    public class ArquivoBolo
+    public class BoloImplementations
     {
-        StreamReader _readPath = new StreamReader(@"C:\Users\igor.lima\Documents\bolosemanal.txt");
+        StreamReader _ReadPath = new StreamReader(@"C:\Users\igor.lima\Documents\bolosemanal.txt");
 
-        public StreamReader ReadFile { get { return _readPath; } }
+        public StreamReader ReadFile { get { return _ReadPath; } }
 
-        public class LendoArquivo : ArquivoBolo
+        List<string> _namesList = new List<string>();
+
+        public List<string> ListNames { get { return _namesList; } }
+    }
+
+    public class ReadFileBolo : BoloImplementations
+    {
+        public void ReadStreamReaderFileToList()
         {
-            public void ReadStreamReaderFileToList()
+            while (!ReadFile.EndOfStream)
             {
-                List<string> NomesBolo = new List<string>();
+                string Ler;
 
-                while (!ReadFile.EndOfStream)
-                {
-                    string Ler;
+                Ler = ReadFile.ReadLine();
 
-                    Ler = Console.ReadLine();
-
-                    NomesBolo.Add(Ler);
-                }
-
-            }
-        }
-
-        public class CreateOrdernation
-        {
-            public List<string> BubbleSort(List<string> vetor)
-            {
-                string aux;
-
-                for (int i = 0; i < namesList.Count; i++)
-                {
-                    for (int j = i + 1; j < namesList.Count; j++)
-                    {
-                        if (vetor[j].CompareTo(vetor[i]) < 0)
-                        {
-                            aux = vetor[i];
-                            vetor[i] = vetor[j];
-                            vetor[j] = aux;
-                        }
-                    }
-                }
-
-                return vetor;
-            }
-        }
-
-        public class CreateDataList
-        {
-            readonly List<string> ListaData = new List<string>();
-
-            public List<string> GetDatesList()
-            {
-                DateTime dateInicial = new DateTime(2020, 2, 20);
-                DateTime dateFinal = new DateTime(2020, 8, 20);
-
-                while (dateInicial <= dateFinal)
-                {
-                    if (dateInicial.DayOfWeek == DayOfWeek.Thursday)
-                        ListaData.Add(dateInicial.ToString("dd/MM"));
-                    dateInicial = dateInicial.AddDays(7);
-                }
-
-                return ListaData;
+                ListNames.Add(Ler);
             }
         }
     }
 
+    public class PrintFile : ReadFileBolo
+    {
+        public void PrintBolo()
+        {
+            ReadStreamReaderFileToList();
+
+            CreateOrdenation.BubbleSort(ListNames);
+                                     
+            var n = 0;
+            foreach (var date in CreateDate.GetDates())
+            {
+                if (n == ListNames.Count)
+                    n = 0;
+
+                Console.WriteLine("Nomes: {0}  Bolo: {1} ", ListNames[n], date);
+                n++;
+            }
+
+            Console.ReadKey();
+        }
+    }
+
+    public class CreateOrdenation
+    {
+        public static List<string> BubbleSort(List<string> vetor)
+        {
+            string aux;
+
+            for (int i = 0; i < vetor.Count; i++)
+            {
+                for (int j = i + 1; j < vetor.Count; j++)
+                {
+                    if (vetor[j].CompareTo(vetor[i]) < 0)
+                    {
+                        aux = vetor[i];
+                        vetor[i] = vetor[j];
+                        vetor[j] = aux;
+                    }
+                }
+            }
+
+            return vetor;
+        }
+    }
+
+    public class CreateDate
+    {
+        public static List<string> GetDates()
+        {
+            var lista = new List<string>();
+
+            DateTime dateInicial = new DateTime(2020, 2, 20);
+            DateTime dateFinal = new DateTime(2020, 8, 20);
+
+            while (dateInicial <= dateFinal)
+            {
+                if (dateInicial.DayOfWeek == DayOfWeek.Thursday)
+                    lista.Add(dateInicial.ToString("dd/MM"));
+                dateInicial = dateInicial.AddDays(7);
+            }
+
+            return lista;
+        }
+
+    }
+    
 }
