@@ -7,72 +7,97 @@ using System.Threading.Tasks;
 
 namespace ProjetoBoloSemanal
 {
-    public class ArquivoBolo
+    public class BoloImplementations
     {
-        StreamReader _readPath = new StreamReader(@"C:\Users\igor.lima\Documents\bolosemanal.txt");
-
-        public StreamReader ReadFile { get { return _readPath; } }
-
-        public class LendoArquivo : ArquivoBolo
+        public class ReadFileBolo 
         {
+            readonly StreamReader _ReadPath = new StreamReader(@"C:\Users\igor.lima\Documents\bolosemanal.txt");
+
+            StreamReader ReadFile { get { return _ReadPath; } }
+
+            List<string> namesList = new List<string>();
+
             public void ReadStreamReaderFileToList()
             {
-                List<string> NomesBolo = new List<string>();
-
                 while (!ReadFile.EndOfStream)
                 {
                     string Ler;
 
                     Ler = Console.ReadLine();
 
-                    NomesBolo.Add(Ler);
+                    namesList.Add(Ler);
                 }
-
             }
-        }
 
-        public class CreateOrdernation
-        {
-            public List<string> BubbleSort(List<string> vetor)
+            public class PrintFile : ReadFileBolo
             {
-                string aux;
-
-                for (int i = 0; i < namesList.Count; i++)
+                public void PrintBolo()
                 {
-                    for (int j = i + 1; j < namesList.Count; j++)
+                    ReadStreamReaderFileToList();
+
+                    var n = 0;
+                    foreach (var date in GetDates())
                     {
-                        if (vetor[j].CompareTo(vetor[i]) < 0)
+                        if (n == namesList.Count)
+                            n = 0;
+
+                        Console.WriteLine("Nomes: {0}  Bolo: {1} ", namesList[n], date);
+                        n++;
+                    }
+
+                    Console.ReadKey();
+                }
+            }
+
+            public class OrderFileBolo : ReadFileBolo
+            {
+                public void OrdenateListNames()
+                {
+                    ReadStreamReaderFileToList();
+                    
+                }
+            }
+            
+            public class CreateOrdernation : OrderFileBolo
+            {
+                public List<string> BubbleSort(List<string> vetor)
+                {
+                    string aux;
+
+                    for (int i = 0; i < namesList.Count; i++)
+                    {
+                        for (int j = i + 1; j < namesList.Count; j++)
                         {
-                            aux = vetor[i];
-                            vetor[i] = vetor[j];
-                            vetor[j] = aux;
+                            if (vetor[j].CompareTo(vetor[i]) < 0)
+                            {
+                                aux = vetor[i];
+                                vetor[i] = vetor[j];
+                                vetor[j] = aux;
+                            }
                         }
                     }
-                }
 
-                return vetor;
+                    return vetor;
+                }
             }
         }
-
-        public class CreateDataList
+        
+        public static List<string> GetDates()
         {
-            readonly List<string> ListaData = new List<string>();
+            var lista = new List<string>();
 
-            public List<string> GetDatesList()
+            DateTime dateInicial = new DateTime(2020, 2, 20);
+            DateTime dateFinal = new DateTime(2020, 8, 20);
+
+            while (dateInicial <= dateFinal)
             {
-                DateTime dateInicial = new DateTime(2020, 2, 20);
-                DateTime dateFinal = new DateTime(2020, 8, 20);
-
-                while (dateInicial <= dateFinal)
-                {
-                    if (dateInicial.DayOfWeek == DayOfWeek.Thursday)
-                        ListaData.Add(dateInicial.ToString("dd/MM"));
-                    dateInicial = dateInicial.AddDays(7);
-                }
-
-                return ListaData;
+                if (dateInicial.DayOfWeek == DayOfWeek.Thursday)
+                    lista.Add(dateInicial.ToString("dd/MM"));
+                dateInicial = dateInicial.AddDays(7);
             }
-        }
+
+            return lista;
+        }  
     }
 
 }
