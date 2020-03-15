@@ -1,0 +1,11 @@
+C:\Users\igor.lima\source\repos\BoloProject\BoloProject.Processors\bin\Debug\netcoreapp3.0\BoloProject.Processors.deps.json
+C:\Users\igor.lima\source\repos\BoloProject\BoloProject.Processors\bin\Debug\netcoreapp3.0\BoloProject.Processors.dll
+C:\Users\igor.lima\source\repos\BoloProject\BoloProject.Processors\bin\Debug\netcoreapp3.0\BoloProject.Processors.pdb
+C:\Users\igor.lima\source\repos\BoloProject\BoloProject.Processors\bin\Debug\netcoreapp3.0\BoloProject.Domain.dll
+C:\Users\igor.lima\source\repos\BoloProject\BoloProject.Processors\bin\Debug\netcoreapp3.0\BoloProject.Domain.pdb
+C:\Users\igor.lima\source\repos\BoloProject\BoloProject.Processors\obj\Debug\netcoreapp3.0\BoloProject.Processors.csprojAssemblyReference.cache
+C:\Users\igor.lima\source\repos\BoloProject\BoloProject.Processors\obj\Debug\netcoreapp3.0\BoloProject.Processors.AssemblyInfoInputs.cache
+C:\Users\igor.lima\source\repos\BoloProject\BoloProject.Processors\obj\Debug\netcoreapp3.0\BoloProject.Processors.AssemblyInfo.cs
+C:\Users\igor.lima\source\repos\BoloProject\BoloProject.Processors\obj\Debug\netcoreapp3.0\BoloProject.Processors.csproj.CopyComplete
+C:\Users\igor.lima\source\repos\BoloProject\BoloProject.Processors\obj\Debug\netcoreapp3.0\BoloProject.Processors.dll
+C:\Users\igor.lima\source\repos\BoloProject\BoloProject.Processors\obj\Debug\netcoreapp3.0\BoloProject.Processors.pdb
