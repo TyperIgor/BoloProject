@@ -1,19 +1,20 @@
-# Projeto Bolo Semanal 
+# PROJETO BOLO # *
 
-//Contexto
-O  bolo Semanal consiste em pegar um conjunto de nomes e definir uma data pra cada um, que seria o dia de trazer o Bolo, pelo responsável do dia.
+ # O que é ?
 
-//CakeRead
-foram ler um arquivo Txt
-usando a DLL StreamReader 
+ *O  Projeto Bolo consiste em pegar um conjunto de nomes e definir uma data pra cada um, que seria o dia de trazer o Bolo, pelo responsável do dia.*
 
-//CakeOrder
-metodo de ordenação alfabetica de string pelo Bubble Sort
+ # Camadas 
+ 
+ # BoloProject.Domain
+ 
+ // separação da camada dominio, que cria a classe abstrata Bolo entidade onde consta somente assinatura de atributos a serem 
+ manipulados em outras camadas de processos, ou seja, essa camada irá ser uma dependência para outras camadas.
+ 
+ # BoloProject.Processors
 
-//CakeDatas
-Usando o DateTime para buscar as datas ate o final do ano. 
+// camada onde é construida todas as implementações para o funcionamento do bolo, onde esta a ordenaçao do Nomes, definição das datas, e a leitura do arquivo . 
 
-
-
-
-
+ # BoloProject 
+ 
+// Bloco onde ocorre a execução do Bolo, separado dentro da pasta Initialize.  
