@@ -1,5 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.IO;
 
 
@@ -13,6 +12,6 @@ namespace BoloProject.Domain.Entities
 
         public StreamReader ReadFile { get { return _fileNames; } }
 
-        public List<string> Names { get { return _names; } }
+        public List<string> NamesList { get { return _names; } }
     }
 }
