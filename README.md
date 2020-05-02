@@ -12,7 +12,7 @@ do Bolo, que cada um deverá trazer
 
 # BoloProject.Processors 
 
-// camada onde esta todas as implementações necessarias para roda o projeto bolo, no qual as implementações são, a ordenação alfabetica dos Nomes, criação das datas e a leitura do arquivo. 
+// camada onde esta todas as implementações necessarias para rodar o projeto bolo, no qual as implementações são, a ordenação alfabetica dos Nomes, criação das datas e a leitura do arquivo. 
 
 # BoloProject 
 
