@@ -1,3 +1,0 @@
-C:\Users\igor.lima\source\repos\BoloProject\BoloProject.Processors\obj\Release\netcoreapp3.0\BoloProject.Processors.AssemblyInfoInputs.cache
-C:\Users\igor.lima\source\repos\BoloProject\BoloProject.Processors\obj\Release\netcoreapp3.0\BoloProject.Processors.AssemblyInfo.cs
-C:\Users\igor.lima\source\repos\BoloProject\BoloProject.Processors\obj\Release\netcoreapp3.0\BoloProject.Processors.csprojAssemblyReference.cache
