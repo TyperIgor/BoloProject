@@ -1,4 +1,4 @@
-# WELCOME TO BOLO PROJECT INTEGRATED WITH SHEETS API FROM GOOGLE IN C#!
+# This is the Bolo Project Integrated with sheets api from Google IN C#!
 Projects Open Source Community
 
 I'll describe all the layers of the application and what they do, like layer domain, processors and initializers.
