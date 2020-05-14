@@ -1,19 +1,16 @@
+# ProjetoBolo
+Projects Open Source Community
 
-# Project Bolo
+# WELCOME TO BOLO PROJECT INTEGRATED WITH SHEETS API FROM GOOGLE IN C#!
 
-// O projeto do bolo consiste em juntar nomes vindo de um arquivo e definir datas para cada um respectivamente que irá ser o dia
-do Bolo, que cada um deverá trazer 
+I'll describe all the layers of the application and what they do, like layer domain, processors and initializers.
 
-# Camadas 
+in this project solution, i'll have the layer responsible for input the data on sheet.
 
-# BoloProject.Domain 
+ 
+# Google.Sheets.Application.Core 
+ - here we have all the classes that implements the logic of the program to input data on sheets, segregated with your responsabilities.
+ - Was necessary get Google Credential e download a path in .JSON, that this file carry the ID for the user manipulate the sheets. 
+ 
 
-// Camada dominio onde esta as entidades dentro da classe abstrata a ser manipulada pelos outros projetos. 
 
-# BoloProject.Processors 
-
-// camada onde esta todas as implementações necessarias para rodar o projeto bolo, no qual as implementações são, a ordenação alfabetica dos Nomes, criação das datas e a leitura do arquivo. 
-
-# BoloProject 
-
-// camada responsável por executar o Projeto  
