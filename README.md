@@ -14,4 +14,8 @@ in this project solution, i'll have the layer responsible for input the data on 
 * Was necessary get Google Credential e download a path in .JSON, that this file carry the ID for the user manipulate the sheets.. 
  
 
+# Google.Sheets.Application.Initializer
+
+:ExecuteSheetProcessor
+* Layer where the application with your dependencies is started
 
