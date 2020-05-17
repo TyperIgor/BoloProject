@@ -21,11 +21,11 @@ namespace Google.Sheet.Application.Core.Processors.ManipulateSheet
             var inputData = FindDates.GetDatas();
             var valueRange = new ValueRange();
 
-            var range = $"{sheets}!C:C";
+            var range = $"{sheets}!E:E";
             valueRange.MajorDimension = "COLUMNS";
 
             valueRange.Values = new List<IList<object>> { inputData };
-
+            
             var appendRequest = service.Spreadsheets.Values.Append(valueRange, UserId, range);
             appendRequest.ValueInputOption = SpreadsheetsResource.ValuesResource.AppendRequest.ValueInputOptionEnum.USERENTERED;
 
