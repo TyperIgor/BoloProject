@@ -1,5 +1,4 @@
 ﻿using Google.Apis.Auth.OAuth2;
-using Google.Sheet.Application.Core.Processors.ManipulateSheet;
 using Google.Apis.Sheets.v4;
 using System.IO;
 
@@ -15,9 +14,9 @@ namespace Google.Sheet.Application.Core.Processors.CredentialUser
 
         public static FileStream FileUser { get { return _userFile; } }
 
-        public static SheetsService service;
+        protected static SheetsService service;
 
-        public static GoogleCredential credential;
+        private static GoogleCredential credential;
 
         public void ValidateUser()
         {
