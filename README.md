@@ -27,8 +27,7 @@ in this project solution, i'll have the layer responsible for input the data on 
 
 ### Bolo.Integration.Core 
 
-- Layer with all the necessary implementations, for run the program. With methods where it's taken the dates, the order the collection of name from the file using bubble sort and
-- the excel spreadsheets. 
+- Layer with all the necessary implementations, for run the program. With methods where it's taken the dates, the order the collection of name from the file using bubble sort and the excel spreadsheets. 
 
 ### Bolo.Integration.Domain
 - Layer where it is provide entities to other classes use their atributes for your processors
