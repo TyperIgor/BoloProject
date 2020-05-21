@@ -8,7 +8,6 @@ I'll describe all the layers of the application and what they do, like layer dom
 in this project solution, i'll have the layer responsible for input the data on sheet.
 
 #Application
-
  
 ### Google.Sheets.Application.Initializer
  - Layer where all the applications with your dependencies is started.
@@ -33,8 +32,4 @@ in this project solution, i'll have the layer responsible for input the data on 
 
 ### Bolo.Integration.Domain
 - Layer where it is provide entities to other classes use their atributes for your processors
-
-
-
-
 
