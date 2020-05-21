@@ -7,7 +7,7 @@ I'll describe all the layers of the application and what they do, like layer dom
 
 in this project solution, i'll have the layer responsible for input the data on sheet.
 
-# Google Application
+#Application
 
  
 ### Google.Sheets.Application.Initializer
@@ -20,7 +20,7 @@ in this project solution, i'll have the layer responsible for input the data on 
  
  
 
-# Google Integration 
+#Integration 
 - This layer is responsible to create the bolo logic program
 
 ### Bolo.Integration.Initializer
