@@ -1,21 +1,35 @@
- # This is the Bolo Project Integrated with sheets api from Google in c#
+# ProjetoBolo
 Projects Open Source Community
+
+# This is the Bolo Project integrated with sheets api from Google in C#.
 
 I'll describe all the layers of the application and what they do, like layer domain, processors and initializers.
 
 in this project solution, i'll have the layer responsible for input the data on sheet.
 
-# Google.Sheets.Application.Core
+#Application
+ 
+### Google.Sheets.Application.Initializer
+ - Layer where all the applications with your dependencies is started.
 
-:ManipulateSheets
-* here we have all the classes that implements the logic of the program to input data on sheets, segregated with your responsabilities.
 
-:FileUserCredential
-* Was necessary get Google Credential e download a path in .JSON, that this file carry the ID for the user manipulate the sheets.. 
+### Google.Sheets.Application.Core 
+ - Here we have all the classes that implements the logic of the program to input data on sheets, segregated with your responsabilities.
+ - Was necessary get Google Credential e download a path in .JSON, that this file carry the ID for the user manipulate the sheets. 
+ 
  
 
-# Google.Sheets.Application
+#Integration 
+- This layer is responsible to create the bolo logic program
 
-:ExecuteSheetProcessor
-* Layer where the application with your dependencies is started
+### Bolo.Integration.Initializer
+- Layer where just the bolo logic program is started, he create a local spreadsheet in excel in your machine.
+
+### Bolo.Integration.Core 
+
+- Layer with all the necessary implementations, for run the program. With methods where it's taken the dates, the order the collection of name from the file using bubble sort and
+- the excel spreadsheets. 
+
+### Bolo.Integration.Domain
+- Layer where it is provide entities to other classes use their atributes for your processors
 
