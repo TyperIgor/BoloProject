@@ -32,6 +32,7 @@ in this project solution, i'll have the layer responsible for input the data on 
 - the excel spreadsheets. 
 
 ### Bolo.Integration.Domain
+- Layer where it is provide entities to other classes use their atributes for your processors
 
 
 
