@@ -1,6 +1,5 @@
 # ProjetoBolo
 Projects Open Source Community
-![./capadoBolo.jpg](Bolo)
 
 # This is the Bolo Project integrated with sheets api from Google in C#.
 
