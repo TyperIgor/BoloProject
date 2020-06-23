@@ -1,0 +1,12 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/Bolo.Integration.Domain
+*.dtbcache
+/.vs
+/Bolo.Integration/bin/Debug/netcoreapp3.0
+/Bolo.Integration/Initializer
+/Bolo.Integration/obj
+/Bolo.Integration
+/Bolo.Integration.Core
