@@ -1,0 +1,29 @@
+{
+  "version": 2,
+  "dgSpecHash": "fVHPUtkyAMnKvYg+Eo6CAE8EhRtwKs7fX/Cg9xFkSONZ1W8UaXDifQ73u9I+yFuanNXx9NwWbDohB3Dozyqp+A==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\igor.lima\\source\\repos\\GoogleSheets.Application\\CopySheetProject\\Sheet.Application.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\igor.lima\\.nuget\\packages\\bytescout.spreadsheet\\3.8.0.1848\\bytescout.spreadsheet.3.8.0.1848.nupkg.sha512",
+    "C:\\Users\\igor.lima\\.nuget\\packages\\google.apis\\1.45.0\\google.apis.1.45.0.nupkg.sha512",
+    "C:\\Users\\igor.lima\\.nuget\\packages\\google.apis.auth\\1.45.0\\google.apis.auth.1.45.0.nupkg.sha512",
+    "C:\\Users\\igor.lima\\.nuget\\packages\\google.apis.core\\1.45.0\\google.apis.core.1.45.0.nupkg.sha512",
+    "C:\\Users\\igor.lima\\.nuget\\packages\\google.apis.sheets.v4\\1.45.0.1954\\google.apis.sheets.v4.1.45.0.1954.nupkg.sha512",
+    "C:\\Users\\igor.lima\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
+    "C:\\Users\\igor.lima\\.nuget\\packages\\microsoft.win32.systemevents\\4.7.0\\microsoft.win32.systemevents.4.7.0.nupkg.sha512",
+    "C:\\Users\\igor.lima\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
+    "C:\\Users\\igor.lima\\.nuget\\packages\\system.drawing.common\\4.7.0\\system.drawing.common.4.7.0.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Bytescout.Spreadsheet 3.8.0.1848' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework '.NETCoreApp,Version=v3.0'. This package may not be fully compatible with your project.",
+      "libraryId": "Bytescout.Spreadsheet",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.0"
+      ]
+    }
+  ]
+}

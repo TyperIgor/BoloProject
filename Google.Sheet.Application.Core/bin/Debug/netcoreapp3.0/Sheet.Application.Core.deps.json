@@ -1,0 +1,227 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.0": {
+      "Sheet.Application.Core/1.0.0": {
+        "dependencies": {
+          "Bolo.Integration.Core": "1.0.0",
+          "Google.Apis.Sheets.v4": "1.45.0.1954"
+        },
+        "runtime": {
+          "Sheet.Application.Core.dll": {}
+        }
+      },
+      "Bytescout.Spreadsheet/3.8.0.1848": {
+        "runtime": {
+          "lib/net40/Bytescout.Spreadsheet.dll": {
+            "assemblyVersion": "3.8.0.1848",
+            "fileVersion": "3.8.0.1848"
+          }
+        }
+      },
+      "Google.Apis/1.45.0": {
+        "dependencies": {
+          "Google.Apis.Core": "1.45.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Google.Apis.dll": {
+            "assemblyVersion": "1.45.0.0",
+            "fileVersion": "1.45.0.0"
+          }
+        }
+      },
+      "Google.Apis.Auth/1.45.0": {
+        "dependencies": {
+          "Google.Apis": "1.45.0",
+          "Google.Apis.Core": "1.45.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Google.Apis.Auth.PlatformServices.dll": {
+            "assemblyVersion": "1.45.0.0",
+            "fileVersion": "1.45.0.0"
+          },
+          "lib/netstandard2.0/Google.Apis.Auth.dll": {
+            "assemblyVersion": "1.45.0.0",
+            "fileVersion": "1.45.0.0"
+          }
+        }
+      },
+      "Google.Apis.Core/1.45.0": {
+        "dependencies": {
+          "Newtonsoft.Json": "12.0.3"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Google.Apis.Core.dll": {
+            "assemblyVersion": "1.45.0.0",
+            "fileVersion": "1.45.0.0"
+          }
+        }
+      },
+      "Google.Apis.Sheets.v4/1.45.0.1954": {
+        "dependencies": {
+          "Google.Apis": "1.45.0",
+          "Google.Apis.Auth": "1.45.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Google.Apis.Sheets.v4.dll": {
+            "assemblyVersion": "1.45.0.1954",
+            "fileVersion": "1.45.0.1954"
+          }
+        }
+      },
+      "Microsoft.NETCore.Platforms/3.1.0": {},
+      "Microsoft.Win32.SystemEvents/4.7.0": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "3.1.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Win32.SystemEvents.dll": {
+            "assemblyVersion": "4.0.2.0",
+            "fileVersion": "4.700.19.56404"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/win/lib/netcoreapp3.0/Microsoft.Win32.SystemEvents.dll": {
+            "rid": "win",
+            "assetType": "runtime",
+            "assemblyVersion": "4.0.2.0",
+            "fileVersion": "4.700.19.56404"
+          }
+        }
+      },
+      "Newtonsoft.Json/12.0.3": {
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {
+            "assemblyVersion": "12.0.0.0",
+            "fileVersion": "12.0.3.23909"
+          }
+        }
+      },
+      "System.Drawing.Common/4.7.0": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "3.1.0",
+          "Microsoft.Win32.SystemEvents": "4.7.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Drawing.Common.dll": {
+            "assemblyVersion": "4.0.0.1",
+            "fileVersion": "4.6.26919.2"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/unix/lib/netcoreapp3.0/System.Drawing.Common.dll": {
+            "rid": "unix",
+            "assetType": "runtime",
+            "assemblyVersion": "4.0.2.0",
+            "fileVersion": "4.700.19.56404"
+          },
+          "runtimes/win/lib/netcoreapp3.0/System.Drawing.Common.dll": {
+            "rid": "win",
+            "assetType": "runtime",
+            "assemblyVersion": "4.0.2.0",
+            "fileVersion": "4.700.19.56404"
+          }
+        }
+      },
+      "Bolo.Integration.Core/1.0.0": {
+        "dependencies": {
+          "Bolo.Integration.Domain": "1.0.0",
+          "Bytescout.Spreadsheet": "3.8.0.1848",
+          "System.Drawing.Common": "4.7.0"
+        },
+        "runtime": {
+          "Bolo.Integration.Core.dll": {}
+        }
+      },
+      "Bolo.Integration.Domain/1.0.0": {
+        "runtime": {
+          "Bolo.Integration.Domain.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Sheet.Application.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Bytescout.Spreadsheet/3.8.0.1848": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-VstXy++QhwPefKIHbHCoTz9Uih9WpYLA9f6Ql72r9OikelHFqeWoLUJy11nIme3aP0BXyRNJFLPrH1ZWwsBvKw==",
+      "path": "bytescout.spreadsheet/3.8.0.1848",
+      "hashPath": "bytescout.spreadsheet.3.8.0.1848.nupkg.sha512"
+    },
+    "Google.Apis/1.45.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-V/huVWohIr8c2Zg9+W+8fBElPd8Smz03k8e+tq/X9JsRdvAPaCBNwvMVNoyPbH+x/2tEFyX+n1jvIGFNC4hLzw==",
+      "path": "google.apis/1.45.0",
+      "hashPath": "google.apis.1.45.0.nupkg.sha512"
+    },
+    "Google.Apis.Auth/1.45.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-dPAhjWofPoGzNjjgmz1zUfnzOsj2lKr/cUgC03NETYIbSZoyLeC9Sc+OCZH9wL0DdklLnvopoFx/v7aTqVjamw==",
+      "path": "google.apis.auth/1.45.0",
+      "hashPath": "google.apis.auth.1.45.0.nupkg.sha512"
+    },
+    "Google.Apis.Core/1.45.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-hYqI4v3kEIfWxiYierMo59XCAOFBoH30RqCzomSubK9JXGAv/o0Cp+gxEeAH9GspxQcZNZV50ouu/8Ypigd7fw==",
+      "path": "google.apis.core/1.45.0",
+      "hashPath": "google.apis.core.1.45.0.nupkg.sha512"
+    },
+    "Google.Apis.Sheets.v4/1.45.0.1954": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-z+mlAbuLaHWlLXO6uQtBMHF5aLuD8BgjMikJd+v9QQKswgp5Q7xn589Roqrs5yP1vpcKIuf+ztxjXGuoVuJkbw==",
+      "path": "google.apis.sheets.v4/1.45.0.1954",
+      "hashPath": "google.apis.sheets.v4.1.45.0.1954.nupkg.sha512"
+    },
+    "Microsoft.NETCore.Platforms/3.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-z7aeg8oHln2CuNulfhiLYxCVMPEwBl3rzicjvIX+4sUuCwvXw5oXQEtbiU2c0z4qYL5L3Kmx0mMA/+t/SbY67w==",
+      "path": "microsoft.netcore.platforms/3.1.0",
+      "hashPath": "microsoft.netcore.platforms.3.1.0.nupkg.sha512"
+    },
+    "Microsoft.Win32.SystemEvents/4.7.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-mtVirZr++rq+XCDITMUdnETD59XoeMxSpLRIII7JRI6Yj0LEDiO1pPn0ktlnIj12Ix8bfvQqQDMMIF9wC98oCA==",
+      "path": "microsoft.win32.systemevents/4.7.0",
+      "hashPath": "microsoft.win32.systemevents.4.7.0.nupkg.sha512"
+    },
+    "Newtonsoft.Json/12.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-6mgjfnRB4jKMlzHSl+VD+oUc1IebOZabkbyWj2RiTgWwYPPuaK1H97G1sHqGwPlS5npiF5Q0OrxN1wni2n5QWg==",
+      "path": "newtonsoft.json/12.0.3",
+      "hashPath": "newtonsoft.json.12.0.3.nupkg.sha512"
+    },
+    "System.Drawing.Common/4.7.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-v+XbyYHaZjDfn0ENmJEV1VYLgGgCTx1gnfOBcppowbpOAriglYgGCvFCPr2EEZyBvXlpxbEsTwkOlInl107ahA==",
+      "path": "system.drawing.common/4.7.0",
+      "hashPath": "system.drawing.common.4.7.0.nupkg.sha512"
+    },
+    "Bolo.Integration.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Bolo.Integration.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
