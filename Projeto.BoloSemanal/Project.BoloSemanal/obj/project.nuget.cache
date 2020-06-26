@@ -1,0 +1,24 @@
+{
+  "version": 2,
+  "dgSpecHash": "AA5FSJh5aK8ZXVk/S4CqlX1h5g6LUw8Pa+dT7uAX9vNaSRhDdtIu013w+jKcNfyyXegyTeu7SGz/HhHEPBt0yg==",
+  "success": true,
+  "projectFilePath": "C:\\ProjectBoloSemanal\\Projeto.BoloSemanal\\Project.BoloSemanal\\Project.BoloSemanal.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\igor.lima\\.nuget\\packages\\bytescout.spreadsheet\\3.8.0.1848\\bytescout.spreadsheet.3.8.0.1848.nupkg.sha512",
+    "C:\\Users\\igor.lima\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
+    "C:\\Users\\igor.lima\\.nuget\\packages\\microsoft.win32.systemevents\\4.7.0\\microsoft.win32.systemevents.4.7.0.nupkg.sha512",
+    "C:\\Users\\igor.lima\\.nuget\\packages\\system.drawing.common\\4.7.0\\system.drawing.common.4.7.0.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Bytescout.Spreadsheet 3.8.0.1848' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework '.NETCoreApp,Version=v3.1'. This package may not be fully compatible with your project.",
+      "libraryId": "Bytescout.Spreadsheet",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    }
+  ]
+}

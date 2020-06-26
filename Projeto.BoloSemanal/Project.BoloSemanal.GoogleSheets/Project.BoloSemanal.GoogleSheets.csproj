@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Project.BoloSemanal.Core\Project.BoloSemanal.Core.csproj" />
+    <ProjectReference Include="..\Project.BoloSemanal.GoogleSheets.Core\Project.BoloSemanal.GoogleSheets.Core.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="GoogleProject.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+</Project>
