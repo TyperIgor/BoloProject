@@ -1,0 +1,251 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\ProjectBoloSemanal\\Projeto.BoloSemanal\\Project.BoloSemanal.GoogleSheets\\Project.BoloSemanal.GoogleSheets.csproj": {}
+  },
+  "projects": {
+    "C:\\ProjectBoloSemanal\\Projeto.BoloSemanal\\Project.BoloSemanal.Core\\Project.BoloSemanal.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\ProjectBoloSemanal\\Projeto.BoloSemanal\\Project.BoloSemanal.Core\\Project.BoloSemanal.Core.csproj",
+        "projectName": "Project.BoloSemanal.Core",
+        "projectPath": "C:\\ProjectBoloSemanal\\Projeto.BoloSemanal\\Project.BoloSemanal.Core\\Project.BoloSemanal.Core.csproj",
+        "packagesPath": "C:\\Users\\igor.lima\\.nuget\\packages\\",
+        "outputPath": "C:\\ProjectBoloSemanal\\Projeto.BoloSemanal\\Project.BoloSemanal.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\igor.lima\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://stonepagamentos.pkgs.visualstudio.com/_packaging/transacional/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\ProjectBoloSemanal\\Projeto.BoloSemanal\\Project.BoloSemanal.Domain\\Project.BoloSemanal.Domain.csproj": {
+                "projectPath": "C:\\ProjectBoloSemanal\\Projeto.BoloSemanal\\Project.BoloSemanal.Domain\\Project.BoloSemanal.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Bytescout.Spreadsheet": {
+              "target": "Package",
+              "version": "[3.8.0.1848, )"
+            },
+            "System.Drawing.Common": {
+              "target": "Package",
+              "version": "[4.7.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\ProjectBoloSemanal\\Projeto.BoloSemanal\\Project.BoloSemanal.Domain\\Project.BoloSemanal.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\ProjectBoloSemanal\\Projeto.BoloSemanal\\Project.BoloSemanal.Domain\\Project.BoloSemanal.Domain.csproj",
+        "projectName": "Project.BoloSemanal.Domain",
+        "projectPath": "C:\\ProjectBoloSemanal\\Projeto.BoloSemanal\\Project.BoloSemanal.Domain\\Project.BoloSemanal.Domain.csproj",
+        "packagesPath": "C:\\Users\\igor.lima\\.nuget\\packages\\",
+        "outputPath": "C:\\ProjectBoloSemanal\\Projeto.BoloSemanal\\Project.BoloSemanal.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\igor.lima\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://stonepagamentos.pkgs.visualstudio.com/_packaging/transacional/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\ProjectBoloSemanal\\Projeto.BoloSemanal\\Project.BoloSemanal.GoogleSheets.Core\\Project.BoloSemanal.GoogleSheets.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\ProjectBoloSemanal\\Projeto.BoloSemanal\\Project.BoloSemanal.GoogleSheets.Core\\Project.BoloSemanal.GoogleSheets.Core.csproj",
+        "projectName": "Project.BoloSemanal.GoogleSheets.Core",
+        "projectPath": "C:\\ProjectBoloSemanal\\Projeto.BoloSemanal\\Project.BoloSemanal.GoogleSheets.Core\\Project.BoloSemanal.GoogleSheets.Core.csproj",
+        "packagesPath": "C:\\Users\\igor.lima\\.nuget\\packages\\",
+        "outputPath": "C:\\ProjectBoloSemanal\\Projeto.BoloSemanal\\Project.BoloSemanal.GoogleSheets.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\igor.lima\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://stonepagamentos.pkgs.visualstudio.com/_packaging/transacional/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\ProjectBoloSemanal\\Projeto.BoloSemanal\\Project.BoloSemanal.Core\\Project.BoloSemanal.Core.csproj": {
+                "projectPath": "C:\\ProjectBoloSemanal\\Projeto.BoloSemanal\\Project.BoloSemanal.Core\\Project.BoloSemanal.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Google.Apis.Sheets.v4": {
+              "target": "Package",
+              "version": "[1.46.0.1988, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\ProjectBoloSemanal\\Projeto.BoloSemanal\\Project.BoloSemanal.GoogleSheets\\Project.BoloSemanal.GoogleSheets.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\ProjectBoloSemanal\\Projeto.BoloSemanal\\Project.BoloSemanal.GoogleSheets\\Project.BoloSemanal.GoogleSheets.csproj",
+        "projectName": "Project.BoloSemanal.GoogleSheets",
+        "projectPath": "C:\\ProjectBoloSemanal\\Projeto.BoloSemanal\\Project.BoloSemanal.GoogleSheets\\Project.BoloSemanal.GoogleSheets.csproj",
+        "packagesPath": "C:\\Users\\igor.lima\\.nuget\\packages\\",
+        "outputPath": "C:\\ProjectBoloSemanal\\Projeto.BoloSemanal\\Project.BoloSemanal.GoogleSheets\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\igor.lima\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://stonepagamentos.pkgs.visualstudio.com/_packaging/transacional/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\ProjectBoloSemanal\\Projeto.BoloSemanal\\Project.BoloSemanal.Core\\Project.BoloSemanal.Core.csproj": {
+                "projectPath": "C:\\ProjectBoloSemanal\\Projeto.BoloSemanal\\Project.BoloSemanal.Core\\Project.BoloSemanal.Core.csproj"
+              },
+              "C:\\ProjectBoloSemanal\\Projeto.BoloSemanal\\Project.BoloSemanal.GoogleSheets.Core\\Project.BoloSemanal.GoogleSheets.Core.csproj": {
+                "projectPath": "C:\\ProjectBoloSemanal\\Projeto.BoloSemanal\\Project.BoloSemanal.GoogleSheets.Core\\Project.BoloSemanal.GoogleSheets.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
