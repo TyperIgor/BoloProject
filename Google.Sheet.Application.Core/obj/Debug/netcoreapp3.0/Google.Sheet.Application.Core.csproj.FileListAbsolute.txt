@@ -1,8 +1,0 @@
-C:\Users\igor.lima\source\repos\GoogleSheets.Application\Google.Sheet.Application.Core\bin\Debug\netcoreapp3.0\Google.Sheet.Application.Core.deps.json
-C:\Users\igor.lima\source\repos\GoogleSheets.Application\Google.Sheet.Application.Core\bin\Debug\netcoreapp3.0\Google.Sheet.Application.Core.dll
-C:\Users\igor.lima\source\repos\GoogleSheets.Application\Google.Sheet.Application.Core\obj\Debug\netcoreapp3.0\Google.Sheet.Application.Core.csprojAssemblyReference.cache
-C:\Users\igor.lima\source\repos\GoogleSheets.Application\Google.Sheet.Application.Core\obj\Debug\netcoreapp3.0\Google.Sheet.Application.Core.AssemblyInfoInputs.cache
-C:\Users\igor.lima\source\repos\GoogleSheets.Application\Google.Sheet.Application.Core\obj\Debug\netcoreapp3.0\Google.Sheet.Application.Core.AssemblyInfo.cs
-C:\Users\igor.lima\source\repos\GoogleSheets.Application\Google.Sheet.Application.Core\bin\Debug\netcoreapp3.0\Google.Sheet.Application.Core.pdb
-C:\Users\igor.lima\source\repos\GoogleSheets.Application\Google.Sheet.Application.Core\obj\Debug\netcoreapp3.0\Google.Sheet.Application.Core.dll
-C:\Users\igor.lima\source\repos\GoogleSheets.Application\Google.Sheet.Application.Core\obj\Debug\netcoreapp3.0\Google.Sheet.Application.Core.pdb
