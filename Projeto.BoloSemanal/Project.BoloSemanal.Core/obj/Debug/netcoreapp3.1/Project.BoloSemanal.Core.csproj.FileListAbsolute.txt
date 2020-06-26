@@ -1,0 +1,12 @@
+C:\ProjectBoloSemanal\Projeto.BoloSemanal\Project.BoloSemanal.Core\obj\Debug\netcoreapp3.1\Project.BoloSemanal.Core.csprojAssemblyReference.cache
+C:\ProjectBoloSemanal\Projeto.BoloSemanal\Project.BoloSemanal.Core\obj\Debug\netcoreapp3.1\Project.BoloSemanal.Core.AssemblyInfoInputs.cache
+C:\ProjectBoloSemanal\Projeto.BoloSemanal\Project.BoloSemanal.Core\obj\Debug\netcoreapp3.1\Project.BoloSemanal.Core.AssemblyInfo.cs
+C:\ProjectBoloSemanal\Projeto.BoloSemanal\Project.BoloSemanal.Core\obj\Debug\netcoreapp3.1\Project.BoloSemanal.Core.csproj.CoreCompileInputs.cache
+C:\ProjectBoloSemanal\Projeto.BoloSemanal\Project.BoloSemanal.Core\bin\Debug\netcoreapp3.1\Project.BoloSemanal.Domain.dll
+C:\ProjectBoloSemanal\Projeto.BoloSemanal\Project.BoloSemanal.Core\bin\Debug\netcoreapp3.1\Project.BoloSemanal.Core.deps.json
+C:\ProjectBoloSemanal\Projeto.BoloSemanal\Project.BoloSemanal.Core\bin\Debug\netcoreapp3.1\Project.BoloSemanal.Core.dll
+C:\ProjectBoloSemanal\Projeto.BoloSemanal\Project.BoloSemanal.Core\bin\Debug\netcoreapp3.1\Project.BoloSemanal.Core.pdb
+C:\ProjectBoloSemanal\Projeto.BoloSemanal\Project.BoloSemanal.Core\bin\Debug\netcoreapp3.1\Project.BoloSemanal.Domain.pdb
+C:\ProjectBoloSemanal\Projeto.BoloSemanal\Project.BoloSemanal.Core\obj\Debug\netcoreapp3.1\Project.BoloSemanal.Core.csproj.CopyComplete
+C:\ProjectBoloSemanal\Projeto.BoloSemanal\Project.BoloSemanal.Core\obj\Debug\netcoreapp3.1\Project.BoloSemanal.Core.dll
+C:\ProjectBoloSemanal\Projeto.BoloSemanal\Project.BoloSemanal.Core\obj\Debug\netcoreapp3.1\Project.BoloSemanal.Core.pdb

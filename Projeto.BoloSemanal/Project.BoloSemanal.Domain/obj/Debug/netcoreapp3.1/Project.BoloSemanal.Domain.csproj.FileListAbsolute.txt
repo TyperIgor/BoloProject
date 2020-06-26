@@ -1,0 +1,9 @@
+C:\ProjectBoloSemanal\Projeto.BoloSemanal\Project.BoloSemanal.Domain\bin\Debug\netcoreapp3.1\Project.BoloSemanal.Domain.deps.json
+C:\ProjectBoloSemanal\Projeto.BoloSemanal\Project.BoloSemanal.Domain\bin\Debug\netcoreapp3.1\Project.BoloSemanal.Domain.dll
+C:\ProjectBoloSemanal\Projeto.BoloSemanal\Project.BoloSemanal.Domain\bin\Debug\netcoreapp3.1\Project.BoloSemanal.Domain.pdb
+C:\ProjectBoloSemanal\Projeto.BoloSemanal\Project.BoloSemanal.Domain\obj\Debug\netcoreapp3.1\Project.BoloSemanal.Domain.csprojAssemblyReference.cache
+C:\ProjectBoloSemanal\Projeto.BoloSemanal\Project.BoloSemanal.Domain\obj\Debug\netcoreapp3.1\Project.BoloSemanal.Domain.AssemblyInfoInputs.cache
+C:\ProjectBoloSemanal\Projeto.BoloSemanal\Project.BoloSemanal.Domain\obj\Debug\netcoreapp3.1\Project.BoloSemanal.Domain.AssemblyInfo.cs
+C:\ProjectBoloSemanal\Projeto.BoloSemanal\Project.BoloSemanal.Domain\obj\Debug\netcoreapp3.1\Project.BoloSemanal.Domain.csproj.CoreCompileInputs.cache
+C:\ProjectBoloSemanal\Projeto.BoloSemanal\Project.BoloSemanal.Domain\obj\Debug\netcoreapp3.1\Project.BoloSemanal.Domain.dll
+C:\ProjectBoloSemanal\Projeto.BoloSemanal\Project.BoloSemanal.Domain\obj\Debug\netcoreapp3.1\Project.BoloSemanal.Domain.pdb
