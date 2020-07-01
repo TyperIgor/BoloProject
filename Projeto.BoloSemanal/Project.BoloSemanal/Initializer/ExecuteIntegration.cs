@@ -6,15 +6,12 @@ namespace Project.BoloSemanal.Initializer
 {
     public class ExecuteIntegration
     {
-        Path path = new Path();
-        OperateExcel excel = new OperateExcel();
-
         Path _path;
         OperateExcel _excel;
         public ExecuteIntegration()
         {
-            _excel = excel;
-            _path = path;
+            _excel = new OperateExcel();
+            _path = new Path();
         }
 
         public void Start()
