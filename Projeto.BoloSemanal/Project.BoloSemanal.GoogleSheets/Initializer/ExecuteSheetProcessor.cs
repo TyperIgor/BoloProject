@@ -21,7 +21,7 @@ namespace Project.BoloSemanal.GoogleSheets.Initializer
         public void Start()
         {
             _userCredentials.ValidateUser();
-            _manipulateSheets.InsertValues(_path);
+            _manipulateSheets.InsertValues();
         }
     }
 }
