@@ -14,9 +14,16 @@ namespace Project.BoloSemanal.GoogleSheets.Core.SheetsCommands
 
         static readonly string sheets = "Página1";
 
-        public void InsertValues(Path path)
+        private Path _path;
+
+        public ManipulateSheets()
         {
-            var ListNames = path.NamesList;
+            _path = new Path();
+        }
+
+        public void InsertValues()
+        {
+            var ListNames = _path.NamesList;
             List<object> Nomes = new List<object>(ListNames);
 
             var inputData = FindDates.GetDatas();
