@@ -1,4 +1,5 @@
-﻿using Project.BoloSemanal.Core.Processors.FileRead;
+﻿using Project.BoloSemanal.Core.Ordenation;
+using Project.BoloSemanal.Core.Processors.FileRead;
 using Project.BoloSemanal.GoogleSheets.Core.CredentialUser;
 using Project.BoloSemanal.GoogleSheets.Core.SheetsCommands;
  
@@ -20,6 +21,8 @@ namespace Project.BoloSemanal.GoogleSheets.Initializer
 
         public void Start()
         {
+            _path.ReadFileNamesTolist();
+            BubbleOrder.BubbleSort(_path.NamesList);
             _userCredentials.ValidateUser();
             _manipulateSheets.InsertValues(_path);
         }
