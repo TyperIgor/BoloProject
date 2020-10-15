@@ -25,7 +25,7 @@ namespace Project.BoloSemanal.GoogleSheets.Core.SheetsCommands
             var range = $"{sheets}!E:E";
             valueRange.MajorDimension = "COLUMNS";
 
-            valueRange.Values = new List<IList<object>> { inputData };
+            valueRange.Values = new List<IList<object>> { Nomes,inputData };
 
             var appendRequest = service.Spreadsheets.Values.Append(valueRange, UserId, range);
             appendRequest.ValueInputOption = SpreadsheetsResource.ValuesResource.AppendRequest.ValueInputOptionEnum.USERENTERED;
