@@ -7,6 +7,8 @@ I'll describe all the layers of the application and what they do, like layer dom
 
 in this project solution, i'll have the layer responsible for input the data on sheet.
 
+The objetive of this program is take names from a local file and print them with specific dates on a excel or spreadsheets
+
 #Application
  
 ### Project.BoloSemanal.GoogleSheet.Initializer
